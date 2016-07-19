@@ -1,0 +1,27 @@
+<dom-module id="app-list">
+    <template>
+      <style></style>
+
+      <template is="dom-if" if="[[elements.length]]">
+        <table class="table table-striped table-hover">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Username</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+          <tbody>
+            <template is="dom-repeat" items="[[elements]]">
+              <tr>
+                <td>[[item.name]]</td>
+                <td>[[item.username]]</td>
+                <td>[[item.email]]</td>
+              </tr>
+            </template>
+          </tbody>
+        </table>
+      </template>
+
+    </template>
+</dom-module>

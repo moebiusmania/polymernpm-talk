@@ -1,6 +1,6 @@
 module.exports = {
   entry: {
-     page1: "./app/index.js"
+     app: "./app/index.js"
   },
   output: {
      // Make sure to use [name] or [id] in output.filename
@@ -15,8 +15,7 @@ module.exports = {
         exclude: ['node_modules','bower_components','app/bundle.js'],
         loader: 'babel', // 'babel-loader' is also a legal name to reference
         query: {
-          // presets: ['es2015']
-          // plugins: ["lodash"]
+          presets: ['es2015']
         }
       }
     ]

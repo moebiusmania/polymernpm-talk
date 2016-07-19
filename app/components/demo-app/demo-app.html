@@ -1,0 +1,22 @@
+<!-- Imports polymer -->
+<link rel="import" href="./../../bower_components/polymer/polymer.html">
+
+<!-- Imports child components -->
+<link rel="import" href="./../app-button/app-button.html">
+<link rel="import" href="./../app-list/app-list.html">
+
+
+<!-- Defines element markup -->
+<dom-module id="demo-app">
+    <template>
+      <style></style>
+
+      <div class="container">
+        <h1>My Polymer + NPM demo app</h1>
+        <app-button on-request="_loadData"></app-button>
+        <app-list elements="[[data]]"></app-list>
+      </div>
+    </template>
+
+    <script src="./../../bundle.js"></script>
+</dom-module>
