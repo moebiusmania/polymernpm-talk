@@ -1,0 +1,22 @@
+{
+  "name": "polymernpm-talk",
+  "description": "> Materiale di riferimento per il talk del --/07/2016 @ LinkMe",
+  "main": "index.js",
+  "authors": [
+    "Salvatore Laisa"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/moebiusmania/polymernpm-talk",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "^1.6.0",
+    "bootstrap": "^3.3.6"
+  }
+}

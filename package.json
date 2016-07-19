@@ -1,0 +1,25 @@
+{
+  "name": "polymernpm-talk",
+  "version": "1.0.0",
+  "description": "> Materiale di riferimento per il talk del --/07/2016 @ LinkMe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://moebiusmania@github.com/moebiusmania/polymernpm-talk.git"
+  },
+  "author": "Salvatore Laisa",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/moebiusmania/polymernpm-talk/issues"
+  },
+  "homepage": "https://github.com/moebiusmania/polymernpm-talk#readme",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "webpack": "^1.13.1"
+  }
+}
