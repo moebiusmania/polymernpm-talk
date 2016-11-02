@@ -6,7 +6,7 @@ Chi conosce sia **React** che **Polymer** sa che quest'ultimo come sistema di di
 [Slides](https://docs.google.com/presentation/d/1w-FBip5fq-2CYus6ScRJSGIcAGtYoUYP30Yd2_Z2Up4/edit?usp=sharing).
 
 ---
-### Taking Polymer to production: we did it!
+# Taking Polymer to production: we did it!
 >Materiale di riferimento per il talk del 2/11/2016 @ MilanoJS
 
 Ci sono forti probabilità che Polymer **NON** sia il framework che tu stia utilizzando nei tuoi attuali progetti, ecco perché in questo talk non mi concentrerò sui paragoni con questo o quell'altro framework ma più che altro su quali siano i casi d'uso in cui difficilmente vorreste evitarlo. Parlerò anche di come gestire applicazioni complesse, quali sono state le sfide di aver portato progetti basati su Polymer in produzione e ovviamente ci saranno slide con gatti. Ah, vi avevo detto che Polymer 2 è in arrivo?
@@ -19,8 +19,6 @@ Ci sono forti probabilità che Polymer **NON** sia il framework che tu stia util
 - Clonare o scaricare il repo
 - Da terminale ``` npm install && bower install ```
 - Avviare un web-server sulla cartella /app
-
-### Slide
 
 
 ### Licenza
